@@ -1,5 +1,6 @@
 package com.blog.helper.payload;
 
+import com.blog.helper.payload.dto.PostDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

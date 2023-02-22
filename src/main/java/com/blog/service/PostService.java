@@ -1,10 +1,10 @@
 package com.blog.service;
 
 import com.blog.helper.exception.ResourceNotFoundException;
-import com.blog.helper.payload.CategoryDto;
-import com.blog.helper.payload.PostDto;
 import com.blog.helper.payload.PostResponse;
-import com.blog.helper.payload.UserDto;
+import com.blog.helper.payload.dto.CategoryDto;
+import com.blog.helper.payload.dto.PostDto;
+import com.blog.helper.payload.dto.UserDto;
 import com.blog.model.Category;
 import com.blog.model.Post;
 import com.blog.model.User;

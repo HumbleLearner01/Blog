@@ -1,7 +1,7 @@
 package com.blog.service;
 
 import com.blog.helper.exception.ResourceNotFoundException;
-import com.blog.helper.payload.CategoryDto;
+import com.blog.helper.payload.dto.CategoryDto;
 import com.blog.model.Category;
 import com.blog.repository.CategoryRepository;
 import lombok.AllArgsConstructor;

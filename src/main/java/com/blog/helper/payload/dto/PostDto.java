@@ -1,8 +1,7 @@
-package com.blog.helper.payload;
+package com.blog.helper.payload.dto;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 import java.io.Serializable;
 import java.util.Date;

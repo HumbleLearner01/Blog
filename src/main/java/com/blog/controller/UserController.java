@@ -1,11 +1,12 @@
 package com.blog.controller;
 
 import com.blog.helper.payload.ApiResponse;
-import com.blog.helper.payload.UserDto;
+import com.blog.helper.payload.dto.UserDto;
 import com.blog.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -30,6 +31,8 @@ public class UserController {
     }
 
     //delete a user
+    //ADMIN
+    @PreAuthorize("hasRole('ADMIN')")
     @DeleteMapping("/{userId}")
     public ResponseEntity<ApiResponse> delete(@PathVariable int userId) {
         userService.delete(userId);

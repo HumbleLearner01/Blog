@@ -1,7 +1,7 @@
 package com.blog.controller;
 
 import com.blog.helper.payload.ApiResponse;
-import com.blog.helper.payload.CategoryDto;
+import com.blog.helper.payload.dto.CategoryDto;
 import com.blog.service.CategoryService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

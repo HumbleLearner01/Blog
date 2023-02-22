@@ -2,8 +2,8 @@ package com.blog.controller;
 
 import com.blog.helper.constants.AppConstants;
 import com.blog.helper.payload.ApiResponse;
-import com.blog.helper.payload.PostDto;
 import com.blog.helper.payload.PostResponse;
+import com.blog.helper.payload.dto.PostDto;
 import com.blog.service.PostService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
