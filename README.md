@@ -28,28 +28,22 @@ The blog web application includes the following features :
 
 The following API endpoints are available:
 
-Endpoint	Description
-POST /api/auth/signup	Create a new user account
-GET /api/auth/activate-account	Activate user account using activation code sent to email
-POST /api/auth/login	Authenticate user and generate JWT token
-GET /api/posts	Get a list of all posts
-GET /api/posts/{id}	Get details of a specific post
-POST /api/posts	Create a new post
-PUT /api/posts/{id}	Update an existing post
-DELETE /api/posts/{id}	Delete a post
-GET /api/users/{username}	Get details of a specific user
-PUT /api/users/{username}	Update user profile
-
 ### Future Improvements
 Some possible improvements for the application are:
 
+- Implementing search functionality for posts
 - Implementing pagination for posts
 - Adding comment functionality to posts
+- Activate user account using activation code sent to email
 
-| Column 1 Header | Column 2 Header |
+### Endpoint	Description
+| Method | Method URL |
 | ---------------|----------------|
-| Row 1 Column 1  | Row 1 Column 2  |
-| Row 2 Column 1  | Row 2 Column 2  |
-| Row 3 Column 1  | Row 3 Column 2  |
-
-Implementing search functionality for posts
+| POST  | /api/user Create a new user account  |
+| GET  | /api/v1/auth/login	Authenticate user and generate JWT token  |
+| GET  | /api/post	Get a list of all posts (you can also provide the pagination and sorting in the url!) |
+| GET  | /api/post/{postId}	Get details of a specific post  |
+| POST | /api/post	Create a new post |
+| PUT  | /api/post/{postId}	Update an existing post |
+| DELETE | /api/post/{postId}	Delete a post |
+and figure out the rest by yourself 😉
