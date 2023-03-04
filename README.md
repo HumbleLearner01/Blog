@@ -32,7 +32,6 @@ The following API endpoints are available:
 Some possible improvements for the application are:
 
 - Implementing search functionality for posts
-- Implementing pagination for posts
 - Adding comment functionality to posts
 - Activate user account using activation code sent to email
 
